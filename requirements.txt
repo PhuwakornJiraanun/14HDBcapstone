@@ -1,0 +1,13 @@
+# Core Data Science & Machine Learning Libraries
+numpy>=1.22.0
+pandas>=1.4.0
+scikit-learn>=1.1.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Dataset acquisition
+kagglehub>=0.2.0
+
+# Optional interactive environments
+jupyterlab>=3.0.0
+ipykernel>=6.0.0

@@ -1,0 +1,5 @@
+model,recall,precision,accuracy,als_dispatch_rate_pct,tp,fn,fp,pr_auc
+Baseline 1: Always Non-fatal,0.0,0.0,0.892,0.0,0,2275,0,
+Baseline 2: Simple Rule (Risky Vehicle / Night),0.733,0.149,0.52,53.05,1667,608,9490,
+Logistic Regression,0.84,0.168,0.534,54.0,1912,363,9446,0.344
+Random Forest,0.829,0.201,0.624,44.68,1886,389,7510,0.4

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment and sensitive data
+.env
+.env.*
+secrets.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Datasets (Prevent uploading heavy raw CSV files to GitHub)
+data/raw/*.csv
+data/processed/*.csv
+*.csv.zip
+*.tar.gz
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.swp

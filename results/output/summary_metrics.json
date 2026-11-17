@@ -1,0 +1,57 @@
+{
+  "total_samples": 81735,
+  "train_samples_2019_2021": 60703,
+  "test_samples_2022": 21032,
+  "overall_fatality_rate": 0.124,
+  "train_fatality_rate": 0.129,
+  "test_fatal_cases": 2275,
+  "best_model": "Random Forest",
+  "tuned_threshold": 0.352,
+  "target_recall": 0.85,
+  "test_results": [
+    {
+      "model": "Baseline 1: Always Non-fatal",
+      "recall": 0.0,
+      "precision": 0.0,
+      "accuracy": 0.892,
+      "als_dispatch_rate_pct": 0.0,
+      "tp": 0,
+      "fn": 2275,
+      "fp": 0,
+      "pr_auc": null
+    },
+    {
+      "model": "Baseline 2: Simple Rule (Risky Vehicle / Night)",
+      "recall": 0.733,
+      "precision": 0.149,
+      "accuracy": 0.52,
+      "als_dispatch_rate_pct": 53.05,
+      "tp": 1667,
+      "fn": 608,
+      "fp": 9490,
+      "pr_auc": null
+    },
+    {
+      "model": "Logistic Regression",
+      "recall": 0.84,
+      "precision": 0.168,
+      "accuracy": 0.534,
+      "als_dispatch_rate_pct": 54.0,
+      "tp": 1912,
+      "fn": 363,
+      "fp": 9446,
+      "pr_auc": 0.344
+    },
+    {
+      "model": "Random Forest",
+      "recall": 0.829,
+      "precision": 0.201,
+      "accuracy": 0.624,
+      "als_dispatch_rate_pct": 44.68,
+      "tp": 1886,
+      "fn": 389,
+      "fp": 7510,
+      "pr_auc": 0.4
+    }
+  ]
+}
